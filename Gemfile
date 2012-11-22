@@ -1,6 +1,7 @@
 source :rubygems
 
 gem 'sinatra'
-gem 'rack'
+gem 'dalli'
+gem 'rack-cache'
 gem 'thin'
 gem 'fistface'
