@@ -1,90 +1,21 @@
-
 body {
 	font-family: Georgia, "Times New Roman", Serif;
-	font-size:100%;
 }
 
-p, ul, li {
-	color:#959595;
-	line-height:1.4;
+#main {
+  margin: 40px auto 80px;
+  max-width: 800px;
 }
 
-a {
-	color:#333;
-	text-decoration:none;
-}
-
-a:focus,
-a:hover {
-	color:#598527;
+h2 {
+  margin: 0 0 0.4em 0;
 }
 
 code {
-	background:#d7e5c1;
-	color:#333;
-	font-family:monospace;
+	background: #d7e5c1;
+	color: #333;
+	font-family: monospace;
 }
-
-header {
-	border-bottom:10px double #d7d7d7;
-	margin-bottom:40px;
-	margin-top:30px;
-	padding-bottom:40px;
-}
-
-header h1 {
-	color:#CCC8BF;
-	font-family: "Ostrich Sans", Helvetica, Arial, Sans-Serif;
-	font-size:9em;
-	font-weight:700;
-	letter-spacing:-7px;
-	position:relative;
-	bottom:-20px;
-}
-
-header img {
-	width:220px;
-}
-
-header p {
-	font-size:0.75em;
-	font-style:italic;
-	margin-top:0.5em;
-}
-
-header p a {
-	font-family:"Lucida Grande", Lucida, Verdana, sans-serif;
-	font-size:0.95em;
-}
-
-article.font {
-	margin-bottom:40px;
-}
-
-
-article.font img {
-	width:460px;
-}
-
-article.font h2 {
-	border-bottom:1px solid #d7d7d7;
-	color:#222;
-	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
-	font-size:1.5em;
-	font-weight:bold;
-	padding-bottom:0.25em;
-}
-
-article.font h3 {
-	color:#7B7770;
-	font-size:1.25em;
-	font-style:italic;
-	margin-bottom:0.25em;
-}
-
-
-
-/* EMBED */
 
 .embed {
 	background: #E2E6EB;
@@ -101,7 +32,12 @@ article.font h3 {
 	background: transparent;
 	border: none;
 	color: #444;
-	font: bold 1.2em monospace;
+	font-family: monospace;
+	font-weight: bold;
 	text-align: left;
 	width: 100%;
+}
+
+#footer {
+  font-size: 0.75em;
 }
